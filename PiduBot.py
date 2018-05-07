@@ -146,7 +146,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://seljankatest.herokuapp.com/' + token)
+    bot.set_webhook(url='https://github.com/gans01/heroku-telegram-bot' + token)
     return "!", 200
 
 
